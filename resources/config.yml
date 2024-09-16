@@ -1,0 +1,23 @@
+#███████╗██╗   ██╗████████╗ ██████╗ ███████╗██╗  ██╗ ██████╗ ██████╗ 
+#██╔════╝██║   ██║╚══██╔══╝██╔═══██╗██╔════╝██║  ██║██╔═══██╗██╔══██╗
+#█████╗  ██║   ██║   ██║   ██║   ██║███████╗███████║██║   ██║██████╔╝
+#██╔══╝  ██║   ██║   ██║   ██║   ██║╚════██║██╔══██║██║   ██║██╔═══╝ 
+#██║     ╚██████╔╝   ██║   ╚██████╔╝███████║██║  ██║╚██████╔╝██║     
+#╚═╝      ╚═════╝    ╚═╝    ╚═════╝ ╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚═╝     
+#discord.gg/EPKcucew5z
+#discord.gg/https://discord.gg/GQAwq5uAwv
+
+
+item: "minecraft:stick" # Choisissez l'item qui sera le stick de propulsion (regardez tout les ids d'item sur https://minecraftitemids.com/)
+
+cooldown: "120" # Le cooldown en secondes avant de pouvoir réutiliser le stick.
+cooldown-message: "§cVotre stick de propulsion est en cooldown pendant encore {cooldown} !" # Le message à envoyer quand le joueur utilise son stick pendant qu'il est en cooldown (utilsiez {cooldown} pour le temps restant).
+
+radius: "5" # Le rayon dans lequel tout les joueurs se trouvant dedans seront projetés en l'air.
+
+noplayer-message: "§cAucun joueurs aux alentours pour utiliser le stick de propulsion..."
+
+puissance: 1.5 # La puissance à laquelle les joueurs sont projetés en l'air. Conseiller : 1.5
+
+on-use: "§aVous avez utilisé votre stick de propulsion !"
+type-oneuse: "popup" # popup, chat, broadcast (popup = au dessus de la barre d'action ; chat = message dans le chat QUE pour le joueur ; broadcast = message dans le chat pour tout le monde)
