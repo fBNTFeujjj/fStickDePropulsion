@@ -14,8 +14,7 @@ cooldown: "120" # Le cooldown en secondes avant de pouvoir réutiliser le stick.
 cooldown-message: "§cVotre stick de propulsion est en cooldown pendant encore {cooldown} !" # Le message à envoyer quand le joueur utilise son stick pendant qu'il est en cooldown (utilsiez {cooldown} pour le temps restant).
 
 radius: "5" # Le rayon dans lequel tout les joueurs se trouvant dedans seront projetés en l'air.
-
-noplayer-message: "§cAucun joueurs aux alentours pour utiliser le stick de propulsion..."
+noplayer-message: "§cAucun joueurs aux alentours pour utiliser le stick de propulsion..." # Le message à envoyer quand le joueur utilise le stick mais qu'il y a aucun joueur dans le radius configuré.
 
 puissance: 1.5 # La puissance à laquelle les joueurs sont projetés en l'air. Conseiller : 1.5 (à vous de faire vos test pour ce paramètre !)
 
