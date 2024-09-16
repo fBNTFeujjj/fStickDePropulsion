@@ -19,5 +19,5 @@ noplayer-message: "§cAucun joueurs aux alentours pour utiliser le stick de prop
 
 puissance: 1.5 # La puissance à laquelle les joueurs sont projetés en l'air. Conseiller : 1.5 (à vous de faire vos test pour ce paramètre !)
 
-on-use: "§aVous avez utilisé votre stick de propulsion !"
+on-use: "§aVous avez utilisé votre stick de propulsion !" # Le message quand le stick de propulsion est utilisé par un joueur.
 type-oneuse: "popup" # popup, chat, broadcast (popup = au dessus de la barre d'action ; chat = message dans le chat QUE pour le joueur ; broadcast = message dans le chat pour tout le monde)
